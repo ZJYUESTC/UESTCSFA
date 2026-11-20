@@ -1,0 +1,15 @@
+[
+  {
+    "id": "quiz",
+    "kind": "quiz",
+    "title": "趣味问答",
+    "description": "10 道科幻知识题"
+  },
+  {
+    "id": "star-routes",
+    "kind": "link",
+    "title": "远星航路",
+    "description": "回合制星舰战术游戏",
+    "url": "https://zjyuestc.github.io/UESTCSFA/games/star-routes/index.html"
+  }
+]

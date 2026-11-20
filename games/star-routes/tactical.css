@@ -1,0 +1,177 @@
+/* 星图、编队册与舰船指令共用一个侧栏宽度，切换时镜头保持原位。 */
+:root {
+  --atlas-panel:clamp(236px,21vw,314px);
+  --rim:rgba(146,180,164,.38);
+  --field-ink:#0d191af5;
+  --chart-type:"Segoe UI","Microsoft YaHei UI","Noto Sans CJK SC",sans-serif;
+}
+.cosmos {
+  background:#080b0e url("galactic-dust.webp") 48% 48% / cover no-repeat;
+}
+.cosmos::after { background:linear-gradient(90deg,#02070a15,#0610130a 52%,#03090c44);box-shadow:none }
+#main-menu {background:linear-gradient(99deg,#060c0d10 10%,#0a11144a 50%,#091012c7)}
+.menu-atmosphere {display:none}
+.campaign-setup {background:linear-gradient(105deg,#0c1718dc,#0d191aef);border-color:var(--rim)}
+.menu-masthead {border-color:#acbaab44}
+.command-bar {height:52px;padding:0 15px;gap:19px;background:linear-gradient(100deg,#1e302f,#101b1e 65%,#142526);border-color:#7497907a;box-shadow:0 4px 14px #0005}
+.identity {gap:10px;min-width:0}
+.identity h1 {font-size:20px;letter-spacing:.23em;line-height:1.15}
+.identity small {font-size:10px;letter-spacing:.12em}
+.sigil {font-size:37px;width:32px}
+.bridge-rule {opacity:.37;font-size:14px;max-width:none}
+.bridge-rule::before,.bridge-rule::after {background:linear-gradient(90deg,transparent,#8ba494);height:1px}
+.turn-clock>span {font:13px var(--chart-type);letter-spacing:.06em}
+#end-btn {height:32px;min-width:124px;font:13px var(--chart-type);letter-spacing:.12em;padding:0 14px;background:linear-gradient(120deg,#425952,#2d4643);box-shadow:inset 0 0 0 1px #a7ac88,inset 0 0 0 3px #223833}
+#end-btn span {font-size:21px}
+.command-rail {top:52px;bottom:25px;width:45px;background:linear-gradient(90deg,#0d171bba,#0d171b2b);border-right:0}
+.rail-tabs,.rail-bottom {gap:4px;padding:12px 0}
+.command-rail button {width:35px;height:35px;border:0;border-radius:0;box-shadow:none;background:transparent;color:#9eafa9}
+.command-rail button[aria-selected=true] {background:linear-gradient(90deg,#8da99a2e,transparent);border-left:2px solid #d2c296;box-shadow:none}
+.command-rail button svg {width:19px;height:19px}
+main {top:52px;bottom:25px}
+.map-viewport {inset:12px calc(var(--atlas-panel) + 24px) 26px 48px;transition:none;overflow:visible}
+.map-only .map-viewport {inset:0 10px}
+.map-viewport #map-svg {overflow:visible}
+#chart-geography text {fill:#e0d6bd;opacity:.37;font:italic 31px "Noto Serif CJK SC","SimSun",serif;letter-spacing:.22em;paint-order:stroke;stroke:#14202260;stroke-width:1}
+.system-label text,.system-label text.long-name {font:22px var(--chart-type);fill:#c3c7bf;paint-order:stroke;stroke:#101314c9;stroke-width:3;stroke-linejoin:round}
+.system-label text.long-name {font-size:20px}
+.system-label.occupied text {fill:#f4ead2;font-weight:550}
+.system-label .hq-label {font:18px var(--chart-type);fill:#efcf87}
+.hyper-edge {stroke:#72d0bf;stroke-width:1.35;opacity:.85;filter:none;stroke-dasharray:none;vector-effect:non-scaling-stroke}
+.warp-edge {stroke:#afbfba;stroke-width:.85;stroke-dasharray:2 4;opacity:.36;vector-effect:non-scaling-stroke}
+.warp-edge.local {stroke:#cee1d4;opacity:.48}
+.route-line,.route-line.hyper,.route-line.warp {stroke:#ead18f;stroke-width:2.6;stroke-dasharray:8 3;vector-effect:non-scaling-stroke}
+.route-line.unaffordable {stroke:#bd9274}
+.route-cost-label {font:bold 19px var(--chart-type);fill:#ffe7ae;stroke:#151a18}
+.system.reachable .system-ring {stroke:#cbb889;opacity:.73;stroke-dasharray:5 17;stroke-width:.85}
+.system.current .system-ring,.system.focused .system-ring {stroke:#f4df9e;stroke-dasharray:16 4;opacity:1}
+.fleet-tag {fill:#101d22;stroke-width:1.4;vector-effect:non-scaling-stroke}
+.unit-token.selected .fleet-tag,.unit-token:hover .fleet-tag,.unit-token:focus-visible .fleet-tag {fill:#39433c;stroke:#ffe0a7;stroke-width:1.7}
+.unit-token.targeted .fleet-tag {stroke:#ffb494}
+.unit-token .ship-hull {stroke:none;filter:none}
+.unit-token .fleet-count {font:600 18px var(--chart-type);fill:#fff4d7}
+.chart-title,.inspector-hidden .chart-title,.map-only .chart-title {top:12px;left:60px}
+#hq-status {pointer-events:auto;background:linear-gradient(90deg,#16201fd9,#14202184);border:0;border-left:2px solid #d2b77d;font:12px var(--chart-type);color:#e9d5a4;padding:6px 11px}
+.chart-controls {right:17px;bottom:8px}
+.chart-controls button {border-radius:2px;background:#13201fb8}
+.chart-controls #map-return {width:auto;font:12px var(--chart-type);padding:0 9px;display:none}
+.map-only .chart-controls #map-return {display:block}
+.navigation-deck {height:25px;padding:0 14px 0 54px;background:linear-gradient(90deg,#111c1fea,#0f1719);border-color:#74847d4d;align-items:center}
+#faction-key {gap:14px}
+#faction-key span {border:0;font:10px var(--chart-type)}
+.inspector,.fleet-outliner {
+  top:14px;bottom:auto;left:auto;right:12px;width:var(--atlas-panel);max-height:calc(100% - 64px);
+  color:#cbd4cc;border:1px solid var(--rim);border-top-color:#90afa1;
+  background:linear-gradient(104deg,#182827f5,#101c1df5 68%);box-shadow:0 6px 20px #0005;
+  clip-path:polygon(0 0,calc(100% - 9px) 0,100% 9px,100% 100%,7px 100%,0 calc(100% - 7px));
+  padding:0;scrollbar-width:thin;scrollbar-color:#57706a transparent;scrollbar-gutter:auto
+}
+body:not(.inspector-hidden) .fleet-outliner,.map-only .fleet-outliner {display:none}
+.inspector::before {display:none}
+.fleet-heading,.inspector-heading {margin:0;border:0;border-bottom:1px solid var(--rim);background:linear-gradient(105deg,#304740ad,#17282742)}
+.fleet-heading {padding:10px 32px 10px 14px;gap:9px}
+.fleet-heading h2 {font:500 16px var(--chart-type);color:#e4e6d7;letter-spacing:.1em}
+.fleet-heading small {font:10px var(--chart-type);color:#a7b5a9}
+.fleet-crest,.fleet-crest img {width:24px;height:auto;line-height:1}
+#fleet-fold {position:absolute;top:10px;right:9px;color:#c3d4c8;font-size:16px;padding:3px 5px}
+.roster-folded #fleet-fold {transform:rotate(180deg)}
+.roster-folded .fleet-outliner>:not(.fleet-heading):not(#fleet-fold) {display:none}
+.roster-unit {padding:6px 13px 5px 10px;gap:8px;border-color:#8ca69722}
+.roster-unit.chosen {background:linear-gradient(90deg,#8eac8b29,transparent);box-shadow:inset 2px 0 #d0b977}
+.roster-unit .ship-mini {width:21px;height:26px}
+.roster-copy>b {display:block;overflow-wrap:anywhere;color:#e0e2d4;font:500 13px/1.2 var(--chart-type);letter-spacing:.035em}
+.roster-copy small {display:flex;align-items:baseline;font:10px var(--chart-type);color:#a2b1ab;margin-top:2px;gap:5px}
+.pennant {font:normal 10px "Consolas","DejaVu Sans Mono",monospace;color:#d0c399;letter-spacing:.025em}
+.roster-copy small>span {font:10px var(--chart-type);white-space:nowrap;color:#adbfba}
+.hp-track,.hp-track i {height:1px}
+.hp-track {max-width:none;margin-top:4px}
+.fleet-outliner>.text-btn {font-size:11px;padding:7px 13px}
+.enemy-details,#system-traffic {margin:0;padding:7px 12px;border-color:#86988a40}
+.enemy-details summary {font:12px var(--chart-type)}
+#system-traffic:empty,#turn-hint:empty {display:none}
+#turn-hint {margin:0;padding:0 12px}
+.inspector-heading {height:37px;padding:0 13px;letter-spacing:.12em;font:13px var(--chart-type);color:#c3d1c7}
+.inspector-heading button {width:auto;color:#a9bdb2}
+.inspector-heading button::before {content:'编队';font:11px var(--chart-type);margin-right:5px}
+.inspector section {padding:11px 13px}
+.ship-title>small,.ship-registry {font:10px var(--chart-type);letter-spacing:.08em;color:#aebbaa}
+.ship-title h2 {font:500 21px/1.3 var(--chart-type);color:#f2e5c9;margin:2px 0}
+.ship-condition {font:10px var(--chart-type)}
+.portrait-well {margin:5px 0 7px;background:#080f14}
+.portrait-well .deck-thumb,.portrait-well .ship-portrait {height:clamp(55px,10vh,90px);object-fit:contain}
+.drive-row {margin-top:5px}
+.order-tabs {display:flex;border-bottom:1px solid var(--rim);margin:10px 0 4px}
+.order-tabs button {flex:1;padding:6px 2px;font:12px var(--chart-type);color:#96aba4;border-bottom:2px solid transparent}
+.order-tabs button[aria-pressed=true] {color:#f0deac;border-color:#d3bd80}
+.engagement,.destination,.work-orders {margin-top:6px}
+.inspector-footer {margin-top:10px}
+#command-recall {position:absolute;bottom:9px;left:59px;display:none;align-items:center;gap:10px;border:0;border-bottom:1px solid #9e9f794d;background:linear-gradient(90deg,#142321ea,#142120b0);padding:6px 11px;color:#dfd7b7;font:12px var(--chart-type)}
+#command-recall svg {width:16px;height:16px;display:block;color:var(--friend)}
+.inspector-hidden:not(.map-only) #command-recall {display:flex}
+[hidden] {display:none!important}
+@media(max-width:850px){
+  :root {--atlas-panel:216px}
+  .map-viewport {inset:4px calc(var(--atlas-panel) + 13px) 24px 42px}
+  .inspector,.fleet-outliner {right:6px}
+}
+@media(max-width:680px){
+  :root {--atlas-panel:min(242px,74vw)}
+  .command-bar {gap:7px;padding:0 7px;height:46px}
+  .identity h1 {font-size:15px}.identity small {font-size:8px}
+  .identity .sigil {font-size:29px;width:25px}
+  .turn-clock>span {font-size:10px}
+  #end-btn {min-width:78px;font-size:11px;padding:0 8px}
+  main {top:46px}.command-rail {width:32px;top:46px}
+  .command-rail button {width:28px;height:31px}
+  .map-viewport {inset:13px 8px 30px 27px}
+  .fleet-outliner,.inspector {top:6px;max-height:calc(100% - 52px)}
+  .roster-folded .fleet-outliner {width:126px}
+  .roster-folded .fleet-heading {padding:5px 20px 5px 6px}
+  .roster-folded .fleet-heading h2 {font-size:11px}
+  .roster-folded .fleet-heading small {display:none}
+  #fleet-fold {top:3px;right:4px}
+  #command-recall {left:33px;bottom:9px;gap:5px;font-size:10px;padding:6px;max-width:56vw}
+  .chart-title,.inspector-hidden .chart-title {left:32px;top:6px;max-width:47vw}
+  #hq-status {font-size:10px;padding:3px 6px}
+  .chart-controls {right:5px}.chart-controls button {width:24px}
+  .navigation-deck {padding-left:33px}
+}
+.system-label text {font-size:25px}
+.system-label text.long-name {font-size:22px}
+.system-label .hq-label {font-size:18px}
+.hyper-edge {stroke:#78d6c4;opacity:.87;stroke-width:1.5}
+.control-mark {opacity:.8}
+.control-mark path {stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.control-mark .dispute-mark {stroke:#ffe4a4;stroke-width:3;paint-order:stroke;filter:drop-shadow(0 0 2px #201500)}
+#faction-key span {display:inline-flex;align-items:center;gap:5px}
+.key-flag,.key-diamond {display:inline-block;width:8px;height:8px}
+.key-flag {background:currentColor;clip-path:polygon(0 0,100% 14%,47% 56%,20% 52%,20% 100%,0 100%)}
+.key-diamond {border:1px solid currentColor;width:6px;height:6px;transform:rotate(45deg)}
+.key-dispute,.sector-owner {color:#ddc796}
+#system-traffic>.traffic-heading {cursor:pointer}
+#control-report {width:min(460px,94vw);max-height:84vh;overflow:auto;padding:0;color:#e2e5d9;font-family:var(--chart-type);border:1px solid #799b8c;background:linear-gradient(145deg,#20332f,#101b1d 65%);box-shadow:0 18px 80px #000c}
+#control-report::backdrop {background:#060c0f9c;backdrop-filter:blur(2px)}
+.report-header {padding:15px 24px 10px;background:linear-gradient(90deg,#35463b88,transparent);border-bottom:1px solid #a3ae8866}
+.report-header span {font-size:11px;color:#b9c5b4;letter-spacing:.1em}
+.report-header h2 {margin:4px 0 0;font:24px var(--serif);color:#e9d7a9}
+#control-results {padding:0 24px}
+#control-results article {padding:16px 0 9px}
+#control-results article header {display:flex;gap:12px;align-items:baseline;justify-content:space-between;margin-bottom:10px}
+#control-results h3 {margin:0;font:19px var(--chart-type)}
+#control-results strong {color:#d6c896;font-size:12px}
+#control-results table {width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+#control-results th,#control-results td {text-align:right;padding:5px 2px;border-bottom:1px solid #8da2932e}
+#control-results th:first-child {text-align:left;font-weight:400;color:#b5c3b8}
+#control-results tbody tr:last-child {color:#f1dca2;font-weight:bold}
+#control-report footer {display:flex;justify-content:flex-end;padding:10px 24px 18px}
+#control-report footer button {padding:6px 15px}
+
+.report-note {margin:2px 24px 6px;color:#9ead9f;font-size:11px}
+
+.music-toggle {position:relative;display:inline-grid;place-items:center;width:32px;height:28px;flex:0 0 32px;padding:0;background:none;border:0;color:#a8bbb0;line-height:1;cursor:pointer;letter-spacing:0}
+.music-toggle>span:first-child {font:20px/1 Georgia,serif}
+.music-toggle[aria-pressed="true"],.music-toggle:hover {color:#dfce9b}
+.music-toggle:focus-visible {outline:1px solid #d5be83;outline-offset:1px}
+.music-muted {position:absolute;color:#e1cc9b;text-shadow:1px 1px 1px #152224;font:20px/1 sans-serif}
+.music-muted[hidden] {display:none}
+.menu-masthead {align-items:center}

@@ -1,0 +1,2541 @@
+{
+  "version": 6,
+  "name": "远星航路 · 中国命名星区",
+  "map": {
+    "width": 2040,
+    "height": 1450,
+    "viewBox": [
+      0,
+      0,
+      2040,
+      1450
+    ],
+    "note": "原创虚构星域；黑洞与脉冲星效果为玩法设定。"
+  },
+  "regions": [
+    {
+      "id": "s01",
+      "name": "辰浦",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        233,
+        213
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "M4 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 1,
+        "iceGiant": 1,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s02",
+      "name": "天琴座α",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        422,
+        110
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "A0 V"
+        ]
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s03",
+      "name": "宇川",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        528,
+        313
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "main",
+        "components": [
+          "F8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 4,
+        "gas": 0,
+        "iceGiant": 1,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s04",
+      "name": "天测 BH-004",
+      "kind": "blackhole",
+      "terrain": "黑洞",
+      "center": [
+        692,
+        199
+      ],
+      "moveCost": 4,
+      "defense": 1,
+      "color": "gold",
+      "star": {
+        "type": "blackhole",
+        "components": []
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s05",
+      "name": "云津",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        928,
+        135
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "A8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 2,
+        "iceGiant": 1,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s06",
+      "name": "天鹰座α",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1089,
+        87
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "A7 V"
+        ]
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s07",
+      "name": "宁宇",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        163,
+        381
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "main",
+        "components": [
+          "M2 V"
+        ]
+      },
+      "planets": {
+        "rocky": 4,
+        "gas": 1,
+        "iceGiant": 1,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s08",
+      "name": "临汉",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        306,
+        439
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "K2 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 2,
+        "iceGiant": 0,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s09",
+      "name": "角宿一",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        486,
+        454
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "binary",
+        "components": [
+          "B1.5 IV–V",
+          "B3 V"
+        ]
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s10",
+      "name": "望辰埠",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        659,
+        389
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "B8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s11",
+      "name": "天测 PSR-011",
+      "kind": "pulsar",
+      "terrain": "脉冲星",
+      "center": [
+        810,
+        344
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "pulsar",
+        "components": []
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s12",
+      "name": "毕宿五",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1187,
+        255
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "giant",
+        "components": [
+          "K5 III"
+        ]
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s13",
+      "name": "天汀",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        196,
+        659
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "M4 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 1,
+        "iceGiant": 1,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s14",
+      "name": "辰溪",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        375,
+        578
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "G4 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 2,
+        "iceGiant": 0,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s15",
+      "name": "望津",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        512,
+        657
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "main",
+        "components": [
+          "F8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 4,
+        "gas": 0,
+        "iceGiant": 1,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s16",
+      "name": "天测 BH-016",
+      "kind": "blackhole",
+      "terrain": "黑洞",
+      "center": [
+        743,
+        634
+      ],
+      "moveCost": 4,
+      "defense": 1,
+      "color": "gold",
+      "star": {
+        "type": "blackhole",
+        "components": []
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s17",
+      "name": "云垣",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        930,
+        534
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "A8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 2,
+        "iceGiant": 1,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s18",
+      "name": "宇宁",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1132,
+        599
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "G8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s19",
+      "name": "星渡",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        92,
+        822
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "main",
+        "components": [
+          "M2 V"
+        ]
+      },
+      "planets": {
+        "rocky": 4,
+        "gas": 1,
+        "iceGiant": 1,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s20",
+      "name": "霄城",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        306,
+        853
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "K2 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 2,
+        "iceGiant": 0,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s21",
+      "name": "宵川",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        443,
+        762
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "F5 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 0,
+        "iceGiant": 1,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s22",
+      "name": "天测 PSR-022",
+      "kind": "pulsar",
+      "terrain": "脉冲星",
+      "center": [
+        663,
+        849
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "pulsar",
+        "components": []
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s23",
+      "name": "天衡",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        981,
+        775
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "main",
+        "components": [
+          "M1 V"
+        ]
+      },
+      "planets": {
+        "rocky": 4,
+        "gas": 2,
+        "iceGiant": 1,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s24",
+      "name": "河汉口",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1149,
+        818
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "K3 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s25",
+      "name": "辰湾",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        186,
+        1106
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "M4 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 1,
+        "iceGiant": 1,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s26",
+      "name": "双津",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        406,
+        1005
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "binary",
+        "components": [
+          "K2 V",
+          "M3 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 2,
+        "iceGiant": 0,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s27",
+      "name": "凌川",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        539,
+        1050
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "main",
+        "components": [
+          "F8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 4,
+        "gas": 0,
+        "iceGiant": 1,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s28",
+      "name": "宁汉",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        710,
+        965
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "K7 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s29",
+      "name": "天测 WD-029",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        834,
+        1102
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "whiteDwarf",
+        "components": [
+          "DA"
+        ]
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s30",
+      "name": "映河",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1126,
+        1023
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "G8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s31",
+      "name": "天测 PSR-031",
+      "kind": "pulsar",
+      "terrain": "脉冲星",
+      "center": [
+        314,
+        1286
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "pulsar",
+        "components": []
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s32",
+      "name": "河浦",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        455,
+        1210
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "K2 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 2,
+        "iceGiant": 0,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s33",
+      "name": "云渚",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        673,
+        1340
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "F5 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 0,
+        "iceGiant": 1,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s34",
+      "name": "星阜",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        883,
+        1259
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "B8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s35",
+      "name": "天测 BH-035",
+      "kind": "blackhole",
+      "terrain": "黑洞",
+      "center": [
+        1020,
+        1166
+      ],
+      "moveCost": 4,
+      "defense": 1,
+      "color": "orange",
+      "star": {
+        "type": "blackhole",
+        "components": []
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s36",
+      "name": "天梁",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1251,
+        1313
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "K3 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s37",
+      "name": "天测 MS-037",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1308,
+        182
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "O9 V"
+        ]
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s38",
+      "name": "承霄",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1522,
+        106
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "G4 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 2,
+        "iceGiant": 0,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s39",
+      "name": "天测 PSR-039",
+      "kind": "pulsar",
+      "terrain": "脉冲星",
+      "center": [
+        1816,
+        215
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "pulsar",
+        "components": []
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s40",
+      "name": "天垣",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1363,
+        396
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "K7 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s41",
+      "name": "两仪津",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1601,
+        309
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "binary",
+        "components": [
+          "F6 V",
+          "K7 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 2,
+        "iceGiant": 1,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s42",
+      "name": "青穹",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1863,
+        462
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "G8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s43",
+      "name": "承宇",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1326,
+        539
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "M2 V"
+        ]
+      },
+      "planets": {
+        "rocky": 4,
+        "gas": 1,
+        "iceGiant": 1,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s44",
+      "name": "星堤",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1646,
+        642
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "blue",
+      "star": {
+        "type": "main",
+        "components": [
+          "K2 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 2,
+        "iceGiant": 0,
+        "iceWorld": 2
+      },
+      "colonized": true
+    },
+    {
+      "id": "s45",
+      "name": "天浦",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1930,
+        698
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "main",
+        "components": [
+          "G2 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 0,
+        "iceGiant": 1,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s46",
+      "name": "栖云",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1387,
+        781
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "B8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s47",
+      "name": "天测 WD-047",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1573,
+        833
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "whiteDwarf",
+        "components": [
+          "DB"
+        ]
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s48",
+      "name": "鸣津",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1832,
+        878
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "K3 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s49",
+      "name": "宸关",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1324,
+        1007
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "M4 V"
+        ]
+      },
+      "planets": {
+        "rocky": 2,
+        "gas": 1,
+        "iceGiant": 1,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s50",
+      "name": "天测 MS-050",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1491,
+        1063
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "gold",
+      "star": {
+        "type": "main",
+        "components": [
+          "G4 V"
+        ]
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s51",
+      "name": "云汀",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1783,
+        1073
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "F8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 4,
+        "gas": 0,
+        "iceGiant": 1,
+        "iceWorld": 1
+      },
+      "colonized": true
+    },
+    {
+      "id": "s52",
+      "name": "天澜",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1401,
+        1270
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "white",
+      "star": {
+        "type": "main",
+        "components": [
+          "K7 V"
+        ]
+      },
+      "planets": {
+        "rocky": 1,
+        "gas": 1,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": true
+    },
+    {
+      "id": "s53",
+      "name": "天测 BH-053",
+      "kind": "blackhole",
+      "terrain": "黑洞",
+      "center": [
+        1622,
+        1181
+      ],
+      "moveCost": 4,
+      "defense": 1,
+      "color": "white",
+      "star": {
+        "type": "blackhole",
+        "components": []
+      },
+      "planets": {
+        "rocky": 0,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 0
+      },
+      "colonized": false
+    },
+    {
+      "id": "s54",
+      "name": "航川",
+      "kind": "star",
+      "terrain": "恒星系",
+      "center": [
+        1865,
+        1257
+      ],
+      "moveCost": 3,
+      "defense": 0,
+      "color": "orange",
+      "star": {
+        "type": "main",
+        "components": [
+          "G8 V"
+        ]
+      },
+      "planets": {
+        "rocky": 3,
+        "gas": 0,
+        "iceGiant": 0,
+        "iceWorld": 1
+      },
+      "colonized": true
+    }
+  ],
+  "connections": [
+    {
+      "a": "s01",
+      "b": "s02",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s01",
+      "b": "s07",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s01",
+      "b": "s08",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s02",
+      "b": "s03",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s02",
+      "b": "s08",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s03",
+      "b": "s04",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s03",
+      "b": "s09",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s03",
+      "b": "s10",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s04",
+      "b": "s05",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s04",
+      "b": "s10",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s05",
+      "b": "s06",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s05",
+      "b": "s11",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s06",
+      "b": "s11",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s06",
+      "b": "s12",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s07",
+      "b": "s08",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s07",
+      "b": "s13",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s08",
+      "b": "s14",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s09",
+      "b": "s14",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s09",
+      "b": "s15",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s10",
+      "b": "s16",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s11",
+      "b": "s16",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s11",
+      "b": "s17",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s12",
+      "b": "s17",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s12",
+      "b": "s18",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s13",
+      "b": "s19",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s13",
+      "b": "s20",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s14",
+      "b": "s15",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s14",
+      "b": "s20",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s14",
+      "b": "s21",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s15",
+      "b": "s21",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s16",
+      "b": "s22",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s16",
+      "b": "s23",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s17",
+      "b": "s18",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s17",
+      "b": "s23",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s17",
+      "b": "s24",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s18",
+      "b": "s24",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s19",
+      "b": "s20",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s19",
+      "b": "s25",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s20",
+      "b": "s21",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s20",
+      "b": "s25",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s20",
+      "b": "s26",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s21",
+      "b": "s26",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s22",
+      "b": "s27",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s22",
+      "b": "s28",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s23",
+      "b": "s28",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s23",
+      "b": "s29",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s24",
+      "b": "s30",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s25",
+      "b": "s31",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s26",
+      "b": "s27",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s26",
+      "b": "s31",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s26",
+      "b": "s32",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s27",
+      "b": "s32",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s27",
+      "b": "s33",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s28",
+      "b": "s34",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s29",
+      "b": "s34",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s29",
+      "b": "s35",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s29",
+      "b": "s36",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s30",
+      "b": "s35",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s30",
+      "b": "s36",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s31",
+      "b": "s32",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s32",
+      "b": "s33",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s33",
+      "b": "s34",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s34",
+      "b": "s35",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s35",
+      "b": "s36",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s37",
+      "b": "s06",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s38",
+      "b": "s37",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s39",
+      "b": "s38",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s40",
+      "b": "s12",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s40",
+      "b": "s37",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s41",
+      "b": "s40",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s41",
+      "b": "s38",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s42",
+      "b": "s41",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s42",
+      "b": "s39",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s43",
+      "b": "s18",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s43",
+      "b": "s40",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s44",
+      "b": "s43",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s44",
+      "b": "s41",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s45",
+      "b": "s44",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s45",
+      "b": "s42",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s46",
+      "b": "s24",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s46",
+      "b": "s43",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s47",
+      "b": "s46",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s47",
+      "b": "s44",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s48",
+      "b": "s47",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s48",
+      "b": "s45",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s49",
+      "b": "s30",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s49",
+      "b": "s46",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s50",
+      "b": "s49",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s50",
+      "b": "s47",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s51",
+      "b": "s50",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s51",
+      "b": "s48",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s52",
+      "b": "s36",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s52",
+      "b": "s49",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s53",
+      "b": "s52",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s53",
+      "b": "s50",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s54",
+      "b": "s53",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s54",
+      "b": "s51",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s13",
+      "b": "s14",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s15",
+      "b": "s16",
+      "extraCost": 0,
+      "via": []
+    },
+    {
+      "a": "s16",
+      "b": "s17",
+      "extraCost": 0,
+      "via": []
+    }
+  ],
+  "hyperlanes": [
+    {
+      "a": "s13",
+      "b": "s14",
+      "cost": 1
+    },
+    {
+      "a": "s14",
+      "b": "s15",
+      "cost": 1
+    },
+    {
+      "a": "s15",
+      "b": "s16",
+      "cost": 1
+    },
+    {
+      "a": "s16",
+      "b": "s17",
+      "cost": 1
+    },
+    {
+      "a": "s17",
+      "b": "s18",
+      "cost": 1
+    },
+    {
+      "a": "s18",
+      "b": "s43",
+      "cost": 1
+    },
+    {
+      "a": "s43",
+      "b": "s44",
+      "cost": 1
+    },
+    {
+      "a": "s44",
+      "b": "s45",
+      "cost": 1
+    },
+    {
+      "a": "s05",
+      "b": "s11",
+      "cost": 1
+    },
+    {
+      "a": "s11",
+      "b": "s17",
+      "cost": 1
+    },
+    {
+      "a": "s17",
+      "b": "s23",
+      "cost": 1
+    }
+  ],
+  "units": [
+    {
+      "id": "player-frigate",
+      "side": "player",
+      "kind": "frigate",
+      "engine": "hyper",
+      "name": "中国·536 都江堰",
+      "startRegion": "s15",
+      "maxHp": 12,
+      "attack": 4,
+      "maxAp": 5,
+      "armor": 1,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "都江堰",
+      "faction": "china",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "rapid",
+          "type": "kinetic",
+          "label": "速射动能炮",
+          "attack": 4,
+          "damage": 4,
+          "capacity": 2
+        }
+      ],
+      "maxMp": 2,
+      "retreat": 50,
+      "thruster": "standard",
+      "pennant": "536"
+    },
+    {
+      "id": "player-scout",
+      "side": "player",
+      "kind": "scout",
+      "engine": "warp",
+      "name": "中国·796 天枢星",
+      "startRegion": "s21",
+      "maxHp": 8,
+      "attack": 4,
+      "maxAp": 7,
+      "armor": 0,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "天枢星",
+      "faction": "china",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "lightLaser",
+          "type": "laser",
+          "label": "轻型激光炮",
+          "attack": 4,
+          "damage": 2,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 4,
+      "retreat": 75,
+      "thruster": "agile",
+      "pennant": "796"
+    },
+    {
+      "id": "player-cruiser",
+      "side": "player",
+      "kind": "cruiser",
+      "engine": "warp",
+      "name": "中国·121 四川",
+      "startRegion": "s15",
+      "maxHp": 18,
+      "attack": 5,
+      "maxAp": 6,
+      "armor": 2,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "四川",
+      "faction": "china",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "mediumKinetic",
+          "type": "kinetic",
+          "label": "中型动能炮",
+          "attack": 5,
+          "damage": 5,
+          "capacity": 1
+        },
+        {
+          "id": "mount2",
+          "model": "mediumKinetic",
+          "type": "kinetic",
+          "label": "中型动能炮",
+          "attack": 5,
+          "damage": 5,
+          "capacity": 1
+        },
+        {
+          "id": "mount3",
+          "model": "mediumLaser",
+          "type": "laser",
+          "label": "中型激光炮",
+          "attack": 5,
+          "damage": 3,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 2,
+      "retreat": 40,
+      "thruster": "standard",
+      "pennant": "121"
+    },
+    {
+      "id": "player-tender",
+      "side": "player",
+      "kind": "tender",
+      "engine": "hyper",
+      "name": "中国·908 抚仙湖",
+      "startRegion": "s16",
+      "maxHp": 16,
+      "attack": 2,
+      "maxAp": 5,
+      "armor": 2,
+      "healAmount": 0,
+      "maxHeals": 4,
+      "callsign": "抚仙湖",
+      "faction": "china",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "crew",
+          "type": "repair",
+          "label": "舰载维修队",
+          "attack": 0,
+          "damage": 0,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 2,
+      "retreat": 50,
+      "thruster": "aux",
+      "pennant": "908"
+    },
+    {
+      "id": "enemy-frigate",
+      "side": "enemy",
+      "kind": "frigate",
+      "engine": "hyper",
+      "name": "苏联·724 Дозорный",
+      "startRegion": "s44",
+      "maxHp": 12,
+      "attack": 4,
+      "maxAp": 5,
+      "armor": 1,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "Дозорный",
+      "faction": "soviet",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "rapid",
+          "type": "kinetic",
+          "label": "速射动能炮",
+          "attack": 4,
+          "damage": 4,
+          "capacity": 2
+        }
+      ],
+      "maxMp": 2,
+      "retreat": 50,
+      "thruster": "standard",
+      "pennant": "724"
+    },
+    {
+      "id": "enemy-scout",
+      "side": "enemy",
+      "kind": "scout",
+      "engine": "warp",
+      "name": "苏联·512 Меридиан",
+      "startRegion": "s41",
+      "maxHp": 8,
+      "attack": 4,
+      "maxAp": 7,
+      "armor": 0,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "Меридиан",
+      "faction": "soviet",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "lightLaser",
+          "type": "laser",
+          "label": "轻型激光炮",
+          "attack": 4,
+          "damage": 2,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 4,
+      "retreat": 75,
+      "thruster": "agile",
+      "pennant": "512"
+    },
+    {
+      "id": "enemy-cruiser",
+      "side": "enemy",
+      "kind": "cruiser",
+      "engine": "warp",
+      "name": "苏联·116 Адмирал Макаров",
+      "startRegion": "s48",
+      "maxHp": 18,
+      "attack": 5,
+      "maxAp": 6,
+      "armor": 2,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "Адмирал Макаров",
+      "faction": "soviet",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "mediumKinetic",
+          "type": "kinetic",
+          "label": "中型动能炮",
+          "attack": 5,
+          "damage": 5,
+          "capacity": 1
+        },
+        {
+          "id": "mount2",
+          "model": "mediumKinetic",
+          "type": "kinetic",
+          "label": "中型动能炮",
+          "attack": 5,
+          "damage": 5,
+          "capacity": 1
+        },
+        {
+          "id": "mount3",
+          "model": "mediumLaser",
+          "type": "laser",
+          "label": "中型激光炮",
+          "attack": 5,
+          "damage": 3,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 2,
+      "retreat": 40,
+      "thruster": "standard",
+      "pennant": "116"
+    },
+    {
+      "id": "enemy-tender",
+      "side": "enemy",
+      "kind": "tender",
+      "engine": "hyper",
+      "name": "苏联·681 Березина",
+      "startRegion": "s45",
+      "maxHp": 16,
+      "attack": 2,
+      "maxAp": 5,
+      "armor": 2,
+      "healAmount": 0,
+      "maxHeals": 4,
+      "callsign": "Березина",
+      "faction": "soviet",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "crew",
+          "type": "repair",
+          "label": "舰载维修队",
+          "attack": 0,
+          "damage": 0,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 2,
+      "retreat": 50,
+      "thruster": "aux",
+      "pennant": "681"
+    },
+    {
+      "id": "player-destroyer",
+      "side": "player",
+      "kind": "destroyer",
+      "engine": "hyper",
+      "name": "中国·172 成都",
+      "startRegion": "s15",
+      "maxHp": 13,
+      "attack": 5,
+      "maxAp": 6,
+      "armor": 0,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "成都",
+      "faction": "china",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "mediumLaser",
+          "type": "laser",
+          "label": "中型激光炮",
+          "attack": 5,
+          "damage": 3,
+          "capacity": 1
+        },
+        {
+          "id": "mount2",
+          "model": "mediumLaser",
+          "type": "laser",
+          "label": "中型激光炮",
+          "attack": 5,
+          "damage": 3,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 3,
+      "retreat": 60,
+      "thruster": "boost",
+      "pennant": "172"
+    },
+    {
+      "id": "player-battleship",
+      "side": "player",
+      "kind": "battleship",
+      "engine": "warp",
+      "name": "中国·031 镇远",
+      "startRegion": "s21",
+      "maxHp": 28,
+      "attack": 6,
+      "maxAp": 4,
+      "armor": 3,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "镇远",
+      "faction": "china",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "heavy",
+          "type": "kinetic",
+          "label": "重型动能炮",
+          "attack": 6,
+          "damage": 7,
+          "capacity": 1
+        },
+        {
+          "id": "mount2",
+          "model": "heavy",
+          "type": "kinetic",
+          "label": "重型动能炮",
+          "attack": 6,
+          "damage": 7,
+          "capacity": 1
+        },
+        {
+          "id": "mount3",
+          "model": "mediumLaser",
+          "type": "laser",
+          "label": "中型激光炮",
+          "attack": 5,
+          "damage": 3,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 1,
+      "retreat": 25,
+      "thruster": "heavyDrive",
+      "pennant": "031"
+    },
+    {
+      "id": "enemy-destroyer",
+      "side": "enemy",
+      "kind": "destroyer",
+      "engine": "hyper",
+      "name": "苏联·438 Стойкий",
+      "startRegion": "s18",
+      "maxHp": 13,
+      "attack": 5,
+      "maxAp": 6,
+      "armor": 0,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "Стойкий",
+      "faction": "soviet",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "mediumLaser",
+          "type": "laser",
+          "label": "中型激光炮",
+          "attack": 5,
+          "damage": 3,
+          "capacity": 1
+        },
+        {
+          "id": "mount2",
+          "model": "mediumLaser",
+          "type": "laser",
+          "label": "中型激光炮",
+          "attack": 5,
+          "damage": 3,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 3,
+      "retreat": 60,
+      "thruster": "boost",
+      "pennant": "438"
+    },
+    {
+      "id": "enemy-battleship",
+      "side": "enemy",
+      "kind": "battleship",
+      "engine": "warp",
+      "name": "苏联·063 Советская Белоруссия",
+      "startRegion": "s48",
+      "maxHp": 28,
+      "attack": 6,
+      "maxAp": 4,
+      "armor": 3,
+      "healAmount": 0,
+      "maxHeals": 0,
+      "callsign": "Советская Белоруссия",
+      "faction": "soviet",
+      "guns": [
+        {
+          "id": "mount1",
+          "model": "heavy",
+          "type": "kinetic",
+          "label": "重型动能炮",
+          "attack": 6,
+          "damage": 7,
+          "capacity": 1
+        },
+        {
+          "id": "mount2",
+          "model": "heavy",
+          "type": "kinetic",
+          "label": "重型动能炮",
+          "attack": 6,
+          "damage": 7,
+          "capacity": 1
+        },
+        {
+          "id": "mount3",
+          "model": "mediumLaser",
+          "type": "laser",
+          "label": "中型激光炮",
+          "attack": 5,
+          "damage": 3,
+          "capacity": 1
+        }
+      ],
+      "maxMp": 1,
+      "retreat": 25,
+      "thruster": "heavyDrive",
+      "pennant": "063"
+    }
+  ],
+  "campaign": {
+    "playerFaction": "china",
+    "enemyFaction": "soviet",
+    "nameSet": "china",
+    "seed": 0,
+    "mode": "encounter"
+  },
+  "ruleset": 9,
+  "atlasVersion": 1,
+  "fleetEdition": 1
+}

@@ -1,0 +1,23 @@
+#role-picker{display:flex;align-items:center;gap:.4rem}
+#role-picker button{padding:.45em .9em;color:#95aba8;border-bottom:1px solid #536563}
+#role-picker button[aria-pressed=true]{color:#f0d9a3;border-color:#e1bf79;background:#ad9c6320}
+.bridge-rule{flex:1;display:flex;align-items:center;justify-content:center;gap:12px;color:#b9a36d;opacity:.78}
+.bridge-rule:before,.bridge-rule:after{content:'';height:1px;flex:1;background:linear-gradient(90deg,transparent,#ab9159)}
+.bridge-rule:after{transform:rotate(180deg)}
+.chart-engraving{position:absolute;left:var(--left);top:0;width:min(24vw,360px);height:125px;pointer-events:none;opacity:.23;background:repeating-radial-gradient(ellipse at 6% -88%,transparent 0 45px,#ae9867 45px 46px,transparent 46px 55px,#7e9c95 55px 56px,transparent 56px 111px);mask-image:linear-gradient(130deg,#000,transparent 90%)}
+.navigation-deck{height:30px;align-items:center;padding:0 20px 0 70px}
+.navigation-deck #route-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.command-rail,main{bottom:30px}
+.navigation-deck:before,.map-hint{display:none}
+.display-settings{border-block:1px solid #99875845;padding:10px 0;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.display-settings button svg{width:15px}.display-settings .map-lenses{display:flex;flex-wrap:wrap}
+.planet-register{margin:12px 0;padding:12px 0!important;border-block:1px solid #a6977140}
+.planet-register h4{color:#bca671;letter-spacing:.12em;font-size:12px;margin:0}
+.planet-register p{margin:5px 0}.survey-summary{font:16px var(--serif);color:#dddfce}
+.planet-strip{display:flex;align-items:center;gap:9px;min-height:25px;margin:6px 0;background:linear-gradient(0deg,transparent 48%,#b5c6bc22 49% 51%,transparent 52%)}
+.planet-strip:empty{display:none}
+.planet-strip i{display:block;width:10px;height:10px;border-radius:50%;background:radial-gradient(circle at 30% 26%,var(--planet),#17262c 94%);border:1px solid var(--planet)}
+.planet-strip .gas{width:17px;height:17px;background:repeating-linear-gradient(16deg,#625745 0 2px,#c4a770 3px 4px,#927657 5px)}
+.planet-strip .iceGiant{width:14px;height:14px}.planet-strip .iceWorld{width:8px;height:8px}.survey-counts{color:#a9b8b9;font-size:12px}
+.system-label text.long-name{font-size:21px}.region-heading em{white-space:normal}
+@media(max-width:650px){.bridge-rule{display:none}.navigation-deck{padding-left:54px}.chart-engraving{height:75px}.display-settings .map-lenses{margin:0}.planet-strip{gap:6px}}

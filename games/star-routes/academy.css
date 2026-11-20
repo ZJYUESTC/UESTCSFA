@@ -1,0 +1,39 @@
+.school-link {display:inline-block;border-block:1px solid #a89d6e66;padding:10px 18px;color:#ddd1aa;font:16px var(--serif);background:#182c287d;letter-spacing:.12em}
+.school-link:hover {background:#33483abf}
+#school-menu {padding:0;width:min(420px,90vw);border:1px solid #799589;color:#d4ded2;background:linear-gradient(120deg,#23342f,#101c1f);box-shadow:0 14px 55px #000a}
+#school-menu header,#lesson-guide header {display:flex;align-items:center;gap:12px}
+#school-menu header {padding:12px 20px;border-bottom:1px solid #89a79555}
+#school-menu h2 {font:23px var(--serif);margin:0;color:#e0cc95}
+#school-menu header button,#lesson-exit {margin-left:auto;color:#b8c8bc}
+#school-menu>button {width:100%;position:relative;text-align:left;display:block;padding:17px 42px 19px 20px;border-bottom:1px solid #96a78b33}
+#school-menu>button:hover {background:#55705c3a}
+#school-menu b,#school-menu span {display:block}
+#school-menu b {font:20px var(--serif);color:#e8dcc0}
+#school-menu span {font:13px/1.5 var(--chart-type);color:#a8bcb0;margin-top:6px}
+#school-menu i {position:absolute;right:20px;top:30%;font:24px var(--serif);color:#c6b47a}
+#lesson-guide {position:fixed;z-index:31;left:56px;bottom:38px;width:min(405px,calc(100vw - 72px));padding:12px 16px;border-left:2px solid #d2ba78;border-block:1px solid #82968b59;background:linear-gradient(106deg,#172725f5,#0c171af5);box-shadow:0 4px 20px #0007;font-family:var(--chart-type)}
+#lesson-guide.guide-at-top {bottom:auto;top:60px}
+#lesson-guide header {font-size:12px;color:#c8bb92}
+#lesson-guide small {color:#a2b4a9;font-variant-numeric:tabular-nums}
+#lesson-exit,#lesson-retry {font-size:11px;padding:3px 5px}
+#lesson-guide h3 {font:19px var(--serif);margin:7px 0 4px;color:#f0dfab}
+#lesson-guide p {font-size:13px;line-height:1.6;margin:0;color:#d5dcd0}
+#lesson-guide #lesson-feedback {color:#a0c9b6;font-size:12px;margin-top:4px}
+#lesson-guide footer:has(button:not([hidden])) {display:flex;justify-content:flex-end;gap:12px;margin-top:8px}
+#lesson-guide .primary {padding:5px 12px}
+#lesson-arrow {display:block;position:fixed;z-index:2000;pointer-events:none;font:27px/24px Georgia,serif;color:#ffe4a2;text-shadow:0 0 3px #30220c,0 1px 4px #000;transition:opacity .1s}
+#lesson-arrow.reverse {transform:scaleX(-1)}
+[data-guided]:not(g) {outline:2px solid #ebd086!important;outline-offset:-2px}
+.system[data-guided] .system-ring {stroke:#ffe4a2;stroke-width:3;stroke-dasharray:none}
+.lesson-dialog-tip {font:12px/1.4 var(--chart-type);color:#e0cc97;max-width:240px}
+.in-lesson #command-recall,.in-lesson .toast {display:none}
+.flight-track {stroke:#c8dcc3;stroke-width:1.8;opacity:.44;fill:none;stroke-dasharray:4 5}
+.flight-ship {filter:drop-shadow(0 0 5px #adcfbf);pointer-events:none}
+@media(max-width:680px){
+ #lesson-guide {bottom:28px;left:5px;width:min(330px,calc(100vw - 10px));padding:7px 10px}
+ #lesson-guide h3 {font-size:16px;margin:3px 0}
+ #lesson-guide p {font-size:12px}
+ #lesson-guide.guide-at-top {top:48px}
+}
+
+#deck>.lesson-dialog-tip{max-width:none;margin:0;padding:5px 16px;background:#172521;border-block-end:1px solid #7a88664d}
