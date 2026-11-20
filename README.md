@@ -17,3 +17,11 @@
 远星航路文件在 `games/star-routes/`。更新游戏时上传替换该目录中对应文件，保持 index.html 及依赖文件齐全。GitHub Pages 从 main 分支根目录发布，提交后等待 Pages 部署完成即可生效；官网页面和 Netlify 不必重新部署。请保留原游戏说明和音乐署名。
 
 内容数据可能有数分钟缓存。小游戏本体更新依赖 GitHub Pages 的部署，和 JSON 列表更新不同。
+
+## 官网
+
+官网地址：https://zjyuestc.github.io/UESTCSFA/
+
+根目录 index.html 与 assets 为官网发布文件；games 为游戏文件。活动、资讯、游戏列表继续使用根目录的 JSON 更新，通常无需重建官网。
+
+官网 Vue 源码位于 website-source。如需调整布局，在该目录执行 npm ci 和 npm run build，将 dist/index.html 和 dist/assets 复制到仓库根目录后提交。请保留 media、games、JSON 数据和 .nojekyll。GitHub Pages 从 main 分支根目录发布。
